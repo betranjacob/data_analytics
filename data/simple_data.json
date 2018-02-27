@@ -1,0 +1,51 @@
+[
+  {
+    "id": "28723e34-e740-47c1-9a18-2ee77cde95ab",
+    "fixed acidity": 6.5,
+    "volatile acidity": "Nan1.8",
+    "citric acid": "0.059",
+    "residual sugar": "11/12/2009",
+    "chlorides": "16",
+    "vintage": "28",
+    "free sulfur dioxide": "0.99531",
+    "total sulfur dioxide": 3.36,
+    "density": 0.64,
+    "pH": 10.1,
+    "sulphates": 6,
+    "alcohol": null,
+    "quality": null
+},
+{
+        "id": "77cd55e5-2cac-4bf8-9656-bb29b98aa0ca",
+        "fixed acidity": 7,
+        "volatile acidity": "0.56",
+        "citric acid": "0.17",
+        "residual sugar": "NaN",
+        "chlorides": "0.065",
+        "vintage": "27/01/2005",
+        "free sulfur dioxide": "15",
+        "total sulfur dioxide": 24,
+        "density": 0.99514,
+        "pH": 3.44,
+        "sulphates": 0.68,
+        "alcohol": 10.55,
+        "quality": 7
+},
+
+    {
+    "id": "ff78be37-98e6-485b-bfaa-64541352db9b",
+    "fixed acidity": 9.8,
+    "volatile acidity": "0.66",
+    "citric acid": "0.39",
+    "residual sugar": "3.2",
+    "chlorides": "0.083",
+    "vintage": "02/05/2001",
+    "free sulfur dioxide": "21",
+    "total sulfur dioxide": 59,
+    "density": 0.9989,
+    "pH": 3.37,
+    "sulphates": 0.71,
+    "alcohol": 11.5,
+    "quality": 7
+  }
+]
