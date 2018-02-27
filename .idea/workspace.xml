@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85790902-3129-4cbe-b1b5-f8521eae3ddb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - alcohol.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - chlorides.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - citric acid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - density.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - fixed acidity.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - free sulfur dioxide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - pH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - residual sugar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - sulphates.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - total sulfur dioxide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Statistics Chart - volatile acidity.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wine Yearly Production Chart.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simple_data.json" afterPath="$PROJECT_DIR$/data/simple_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercise.py" afterPath="$PROJECT_DIR$/exercise.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +20,7 @@
       <file leaf-file-name="exercise.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="214">
               <caret line="219" column="35" lean-forward="false" selection-start-line="219" selection-start-column="35" selection-end-line="219" selection-end-column="35" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -63,6 +49,7 @@
         <option value="$PROJECT_DIR$/tests.py" />
         <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/exercise.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -193,8 +180,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1026" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3384458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2198364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -353,14 +341,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1179">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Wine Statistics Chart - std.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -482,9 +462,25 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exercise.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1064">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercise.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="214">
           <caret line="219" column="35" lean-forward="false" selection-start-line="219" selection-start-column="35" selection-end-line="219" selection-end-column="35" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
