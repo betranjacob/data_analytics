@@ -1,4 +1,4 @@
-A python exercise using Portuguese wine data.
+A DataCleansing exercise using Portuguese wine data in Python.
 
 The data  can be used to make predictions about the quality of a wine based on its chemical make up.
 
