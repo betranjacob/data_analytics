@@ -1,10 +1,8 @@
-A DataCleansing exercise using Portuguese wine data in Python.
+# DataCleansing exercise using Portuguese wine data
 
-The data  can be used to make predictions about the quality of a wine based on its chemical make up.
+This exercise is about munging the data into the correct shape to pass into a selection of models and to display charts providing insights into the data.The data can be used to make predictions about the quality of a wine based on its chemical make up.
 
-This exercise is about munging the data into the correct shape to pass into a selection of models and to display charts providing insights into the data.
-
-Prerequisites
+## Prerequisites
   - Python 3 environment
   - Numpy
   - Matplotlib library is used to plot charts.
@@ -18,18 +16,18 @@ The objective of the exercise is to take the json data and clean it up so we can
 * More tests need to be written to verify each part works as expected for various cases
 * pro tip: as per the Json specification don't assume the json values will always be in the same order when parsing, you should rely on the field name of each field to detirmine the layout.
 
-Part 1a
+# Part 1a
 
 provide a function to sort the rows by date, if there are two identical dates then sort by id lexicographically ascending
 
 Changes added to run_part_a()
 
-Part 1b
+# Part 1b
 
 We'd like to run our classification on red wine but to do that we'll need to get the data into the correct shape and remove any corrupted or invalid data in the json.
 Your function should return two objects
 
-  1. X a 2d numpy array of float64 which are the 'features' of each wine
+  1. Feature list :  Two dimentional numpy array of float64 which are the 'features' of each wine
         "fixed acidity"
         "volatile acidity"
         "citric acid"
@@ -42,10 +40,9 @@ Your function should return two objects
         "sulphates"
         "alcohol"
 
-  2. y a numpy array of ints for the "quality" of each wine
+  2. Labelled Target : A numpy array of ints for the "quality" of each wine
 
-notes
-
+# Notes
   * X and y should have the same number of rows where row 1 of X should be the features for row 1 of y.
   * the id and vintage fields can be dropped as they are not inputs to the model.
   * Any wines in the json data with invalid field values should be removed
@@ -59,7 +56,7 @@ A column is valid depending on its type
   * Date - a string which parses to a datetime object in the format ''%d/%m/%y'
   * float - number or string which parses to a number, Nan is invalid
 
-eg
+* Example :
 
 "date";       "fixed acidity";"volatile acidity";"citric acid";"residual sugar";
 "12/17/2016";  7;                "0.27";             Nan;          20.7     <- Invalid nan valid - this row isn't used to calculate fa, va, ca or rs
@@ -69,7 +66,7 @@ eg
 
 Make your changes to run_part_b()
 
-Part 1c
+# Part 1c
 
 Plot a chart showing a count by date (grouped by year) of red wines.
 
@@ -79,7 +76,7 @@ Hint: this means your chart should have exactly 16 data points
 Make your changes to run_part_c()
 to display the chart make changes to the function run_chart_c()
 
-Part 1d
+# Part 1d
 
 Write a function which returns the mean, median, standard deviation, min and max for each of the following columns (there are 11).
 
